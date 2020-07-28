@@ -1,1 +1,4 @@
-//this will be the entry point for client JavaScript
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(<div>Hello, world</div>, document.getElementById('app'));
