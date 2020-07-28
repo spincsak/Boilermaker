@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const databaseName = 'databoiler';
 
-const db = newSequelize(
+const db = new Sequelize(
   process.env.DATABASE_URL || `postgres://localhost:8080/${databaseName}`,
   {
     logging: false,
